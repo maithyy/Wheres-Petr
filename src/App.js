@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       <h1>Wheres Petr</h1>
       <input type="file"  accept="image/*" name="image" id="file" /> <br /><br />
-      <ClickCounter/>
       <RandomizePetr/>
 
     </div>
