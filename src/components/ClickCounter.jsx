@@ -16,14 +16,10 @@ const ClickCounter = () => {
     }
     
     // change image styling left and top randomly every time useeffect is called
-
-    let topPosition = Math.random() * 500;
-    let leftPosition = Math.random() * 1800;
     
     return (
       <div>
         <h1> Times you've clicked Petr: {count}</h1>
-        <img style={{ height: 100, position: 'absolute', left: {leftPosition}, top: {topPosition} }} src={petr} alt= "Petr" onClick={handleClick}/>
       </div>
     );
 }
