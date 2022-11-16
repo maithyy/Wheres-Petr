@@ -1,7 +1,6 @@
 
 import React, { Component } from "react";
-import petr from '../images/petr.png'
-import ClickCounter from "./ClickCounter";
+import petr from '../images/petr-removebg.png'
   
 class RandomizePetr extends Component {
   
@@ -18,7 +17,6 @@ class RandomizePetr extends Component {
         leftPos: Math.random() * 90,
         count: this.state.count + 1
     });
-    ClickCounter.handleClick()
   };
 
   render() {
