@@ -1,15 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import RandomizePetr from './components/RandomizePetr';
-import Upload from './components/DisplayImage';
+import logo from "./logo.svg";
+import "./App.css";
+import RandomizePetr from "./components/RandomizePetr";
+import DisplayImage from "./components/DisplayImage";
 
 function App() {
-
   return (
     <div className="App">
       <h1>Wheres Petr</h1>
-      <RandomizePetr/>
-      <Upload/>
+      <RandomizePetr />
+      <DisplayImage />
     </div>
   );
 }
