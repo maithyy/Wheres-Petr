@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function PageButtons(props) {
   return (
     <div>
-      <button
+      <button className="page-button"
         style={{
           width: 257,
           height: 57,
@@ -14,6 +14,7 @@ function PageButtons(props) {
           fontFamily: "JetBrains Mono",
           fontSize: 20,
           boxShadow: "0px 2px 2px #000004",
+          transition: "transform .4s",
         }}
       >
         <Link to={props.page}>{props.text}</Link>
