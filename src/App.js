@@ -2,8 +2,8 @@ import "./App.css";
 import RandomizePetr from "./components/RandomizePetr";
 import DisplayImage from "./components/DisplayImage";
 import IntroCards from "./components/IntroCards";
-
 import petr from "./images/petr.png";
+
 
 function App() {
   return (
