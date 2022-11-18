@@ -10,21 +10,26 @@
 }
 
 .petr_logo {
+  background-color: inherit;
   position: relative;
-  padding-left: 0px;
-  height: auto;
+  margin-left: 15px;
+  height: 90%;
   max-width: 110px;
+  border-radius: 5;
+  top: 5px;
+  transition: transform 0.4s;
 }
 
 .petr_text {
   position: relative;
+  left: 60px;
   top: 25px;
   font-style: normal;
   font-weight: 500;
   font-size: 2.5rem;
   line-height: 35px;
   color: #000000;
-  border: #000000;
+  transition: transform .4s;
 }
 
 .home-buttons {
@@ -37,4 +42,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.page-button:hover {
+  transform: scale(1.05);
+}
+
+.petr_logo:hover {
+  transform: scale(1.05);
+}
+
+.petr_text:hover {
+  transform: scale(1.05);
 }
