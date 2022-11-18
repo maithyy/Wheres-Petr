@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import petr from "../images/petr.png";
+import webjampetr from "../images/webjampetr.png";
 
 class RandomizePetr extends Component {
   // Create state
@@ -29,7 +29,7 @@ class RandomizePetr extends Component {
             left: `${this.state.leftPos}%`,
             top: `${this.state.topPos}%`,
           }}
-          src={petr}
+          src={webjampetr}
           alt="Petr"
           onClick={this.movePetr}
         />

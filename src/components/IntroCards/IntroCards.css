@@ -1,0 +1,17 @@
+.CardContainer {
+  margin: 0px 20px;
+}
+
+.Card {
+  position: relative;
+  height: 600px;
+  max-width: 400px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.7);
+  margin: 0px 100px;
+}
+
+.Card img {
+  opacity: 0.5;
+  height: 100%;
+}
