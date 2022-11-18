@@ -1,47 +1,40 @@
 .header {
-  position: relative;
-  width: 100vw;
-  background-color: yellow;
+  background-image: linear-gradient(#d1a941, #ef9919);
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: Black;
+  max-height: 80px;
 }
 
 .petr_logo {
   position: relative;
-  left: 20px;
-  top: 20px;
-
+  padding-left: 0px;
   height: auto;
-  width: auto;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 110px;
 }
 
 .petr_text {
   position: relative;
-  display: inline;
-  left: 15px;
-  top: 0px;
-
-  font-family: Arial, Helvetica, sans-serif;
+  top: 25px;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 2.5rem;
   line-height: 35px;
   color: #000000;
+  border: #000000;
 }
 
-.page_button {
-  position: relative;
-  float: right;
+.home-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-  right: 57px;
-  top: 67px;
-
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 22px;
-  text-align: center;
-  color: #000000;
-  text-decoration: none;
+.home-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

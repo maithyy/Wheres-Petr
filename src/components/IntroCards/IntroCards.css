@@ -4,8 +4,8 @@
 
 .Card {
   position: relative;
-  height: 600px;
-  max-width: 400px;
+  height: 400px;
+  max-width: 300px;
   overflow: hidden;
   background: rgba(0, 0, 0, 0.7);
   margin: 0px 100px;
@@ -14,4 +14,40 @@
 .Card img {
   opacity: 0.5;
   height: 100%;
+}
+
+.IntroCards h2 {
+  color: white;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 80px;
+}
+
+.IntroCards p {
+  position: relative;
+  padding-top: 30px;
+
+  width: 583px;
+  height: 79px;
+
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  z-index: 1;
+  color: #ffcb42;
+  margin: 0px;
 }

@@ -1,0 +1,30 @@
+.locations img {
+  width: auto;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  padding: 6rem;
+  gap: 3rem;
+}
+
+.picture-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 10;
+  width: 50%;
+}
+
+.desc-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-desc {
+  color: #ffcb42;
+  font-weight: 20;
+}
