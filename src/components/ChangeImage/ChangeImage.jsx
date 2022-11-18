@@ -10,7 +10,7 @@ class ChangeImage extends React.Component {
       file: null,
     };
     this.handleChange = this.handleChange.bind(this);
-    this.DowloadImage = this.DowloadImage.bind(this);
+    this.DowloadImage = this.DownloadImage.bind(this);
     this.EditImageContainer = this.EditImageContainer.bind(this);
     this.name = null;
   }
@@ -47,7 +47,7 @@ class ChangeImage extends React.Component {
         petr_img,
         Math.random() * (canvas.width - 100),
         Math.random() * (canvas.height - 100),
-        100,
+        150,
         100
       );
       this.setState({
@@ -65,7 +65,7 @@ class ChangeImage extends React.Component {
     button.style.cursor = "pointer";
   }
 
-  DowloadImage() {
+  DownloadImage() {
     console.log(this.state.file);
     saveAs(this.state.file, this.name + "_with_Petr.png");
   }
@@ -90,6 +90,7 @@ class ChangeImage extends React.Component {
             />
             <img
               id="UploadedImage"
+              alt="Your upload with Petr"
               src={this.state.file}
               style={{ width: "100%", height: "100%" }}
             />
@@ -98,7 +99,7 @@ class ChangeImage extends React.Component {
             Choose Image
           </label>
         </div>
-        <button id="Download" onClick={this.DowloadImage}>
+        <button id="Download" onClick={this.DownloadImage}>
           Download
         </button>
       </div>
