@@ -21,7 +21,7 @@ class DisplayImage extends React.Component {
           name="image"
           id="file"
           onChange={this.handleChange}
-        />{" "}
+        />
         <br />
         <br />
         <img

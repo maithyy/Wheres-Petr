@@ -1,10 +1,7 @@
 .App {
   text-align: center;
-  font-family: 'JetBrains Mono', monospace;
-}
+  background-color: #277bc0;
 
-body {
-  background-color: #277BC0;
 }
 
 .App-logo {

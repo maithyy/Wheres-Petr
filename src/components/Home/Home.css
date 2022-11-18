@@ -1,0 +1,89 @@
+.IntroTitle {
+  background-color: #002967;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 20%;
+  height: 313px;
+}
+
+.IntroTitle h1 {
+  width: 1040px;
+  height: 96px;
+  left: 190px;
+  top: 284px;
+
+  font-family: "Mitr";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 157px;
+
+  display: flex;
+  align-items: center;
+  color: #ffcb42;
+}
+
+.IntroCards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+}
+
+.IntroCards h2 {
+  color: white;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 92px;
+}
+
+.IntroCards p {
+  position: relative;
+
+  width: 583px;
+  height: 79px;
+
+  font-family: "JetBrains Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 26px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  z-index: 1;
+  color: #ffcb42;
+  margin: 0px;
+}
+
+.CardContainer {
+  margin: 0px 20px;
+}
+
+.Card {
+  position: relative;
+  height: 600px;
+  max-width: 400px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.7);
+  margin: 0px 100px;
+}
+
+.Card img {
+  opacity: 0.5;
+  height: 100%;
+}
