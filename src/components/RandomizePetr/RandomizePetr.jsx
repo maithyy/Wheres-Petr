@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import webjampetr from "../images/webjampetr.png";
-import dbh from "../images/dbh.png";
-import ics1 from "../images/ics1.jpg";
-import pslh from "../images/pslh.png";
-import hib from "../images/hib.jpg";
-import sciencelibrary from "../images/sciencelibrary.png";
-import langson from "../images/langson.jpg";
-import mesacourt from "../images/mesacourt.jpg";
-import brandywine from "../images/brandywine.jpg";
+import webjampetr from "../../images/webjampetr.png";
+import dbh from "../../images/dbh.png";
+import ics1 from "../../images/ics1.jpg";
+import pslh from "../../images/pslh.png";
+import hib from "../../images/hib.jpg";
+import sciencelibrary from "../../images/sciencelibrary.png";
+import langson from "../../images/langson.jpg";
+import mesacourt from "../../images/mesacourt.jpg";
+import brandywine from "../../images/brandywine.jpg";
 
 import "./RandomizePetr.css";
 

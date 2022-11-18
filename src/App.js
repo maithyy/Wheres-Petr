@@ -1,9 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import logo from "./logo.svg";
 import "./App.css";
-import RandomizePetr from "./components/RandomizePetr";
-import ChangeImage from "./components/ChangeImage";
+import RandomizePetr from "./components/RandomizePetr/RandomizePetr";
+import ChangeImage from "./components/ChangeImage/ChangeImage";
 import Home from "./components/Home/Home";
 import Header from "./components/Header/Header";
 
