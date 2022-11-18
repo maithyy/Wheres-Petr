@@ -1,0 +1,47 @@
+.header {
+  position: relative;
+  width: 100vw;
+  background-color: yellow;
+}
+
+.petr_logo {
+  position: relative;
+  left: 20px;
+  top: 20px;
+
+  height: auto;
+  width: auto;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.petr_text {
+  position: relative;
+  display: inline;
+  left: 15px;
+  top: 0px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  color: #000000;
+}
+
+.page_button {
+  position: relative;
+  float: right;
+
+  right: 57px;
+  top: 67px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
