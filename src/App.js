@@ -17,7 +17,3 @@ function App() {
         <Route path="/picture" element={<ChangeImage />} />
       </Routes>
     </Router>
-  );
-}
-
-export default App;
