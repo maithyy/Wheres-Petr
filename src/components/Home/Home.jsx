@@ -1,5 +1,5 @@
 import IntroCards from "../IntroCards/IntroCards";
-import webjampetr from "../../images/webjampetr.png";
+import card from "../../images/card.png";
 
 import "./Home.css";
 
@@ -13,13 +13,13 @@ class HomePage extends React.Component {
           <IntroCards
             text="EXPLORE UCI WITH PETR"
             mypath="/game"
-            chosenImage={webjampetr}
+            chosenImage={card}
             caption="The goal of this game is to find the hidden Petr on different spots across campus!"
           />
           <IntroCards
             text="FIND PETR IN YOUR PICTURE"
             mypath="/picture"
-            chosenImage={webjampetr}
+            chosenImage={card}
             caption="Upload an image and find where Petr's hiding in that image. Watchout! There is a timer!"
           />
         </div>
