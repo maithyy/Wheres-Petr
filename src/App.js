@@ -17,7 +17,8 @@ function App() {
         <Route path="/picture" element={<ChangeImage />} />
       </Routes>
     </Router>
-
+  );
+}
 /*
 function App() {
   return (
@@ -32,8 +33,6 @@ function App() {
           <ExploreBtn/>
         </div>
       </div>
-      <RandomizePetr />
-      <DisplayImage />
     </div>
   );
 }
