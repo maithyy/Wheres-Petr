@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 function IntroCards(props) {
   return (
     <div className="CardContainer">
-      <Link to={props.mypath}>
-        <div className="Card">
-          <img src={props.chosenImage} alt="Peter" />
+      <div className="Card">
+        <img src={props.chosenImage} alt="Peter" />
+        <Link to="/game">
           <h2>{props.text}</h2>
-        </div>
-      </Link>
+        </Link>
+      </div>
       <p>{props.caption}</p>
     </div>
   );

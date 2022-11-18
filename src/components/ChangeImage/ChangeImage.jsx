@@ -75,8 +75,8 @@ class ChangeImage extends React.Component {
       <div className="DisplayImage">
         <h2>Find Petr!</h2>
         <p>
-          Upload an image and see if you can find petr. If you like your image,
-          you can also donwload it.
+          Upload an image and see if you can find Petr. If you like your image,
+          you can also download it.
         </p>
         <div className="ImageContainer">
           <div className="BackgroundImage">
@@ -90,7 +90,6 @@ class ChangeImage extends React.Component {
             />
             <img
               id="UploadedImage"
-              alt="Your upload with Petr"
               src={this.state.file}
               style={{ width: "100%", height: "100%" }}
             />
