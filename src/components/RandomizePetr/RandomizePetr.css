@@ -21,10 +21,14 @@
 }
 
 .picture-container h1{
-  margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 55px;
+  font-size: 4rempx;
   font-weight: 400;
+  transition: transform .3s;
+}
+
+.picture-container h1:hover {
+  transform: scale(1.05);
 }
 
 .desc-container {
@@ -33,14 +37,10 @@
   width: 40%;
   margin-left: 100px;
   margin-right: 100px;
-  margin-top: 100px;
 }
 
 .game-desc {
   color: #ffcb42;
   font-weight: 20;
   font-size: 25px;
-}
-
-.point-counter {
 }

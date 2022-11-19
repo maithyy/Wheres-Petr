@@ -8,6 +8,11 @@ import sciencelibrary from "../../images/sciencelibrary.png";
 import langson from "../../images/langson.jpg";
 import mesacourt from "../../images/mesacourt.jpg";
 import brandywine from "../../images/brandywine.jpg";
+import arc from "../../images/archeader.jpg";
+import alp from "../../images/ALP-1024x650.jpg";
+import aldrich from "../../images/Aldrich-Park_1600.jpg"
+import brencenter from "../../images/BrenEventCenter.jpg"
+
 
 import "./RandomizePetr.css";
 
@@ -36,23 +41,27 @@ const locations = [
   [langson, "Langson Library", "https://map.uci.edu/?id=463#!ct/61979?m/83170"],
   [mesacourt, "Mesa Court", "https://map.uci.edu/?id=463#!ct/61979?m/83072"],
   [brandywine, "Brandywine Commons", "https://map.uci.edu/?id=463#!ct/61979?m/446803"],
+  [arc, "Anteater Recreation Center", "https://map.uci.edu/?id=463#!ct/61979?m/114630?sbc/"],
+  [alp, "Anteater Learning Pavillion", "https://map.uci.edu/?id=463#!ct/61979?m/255884?sbc/"],
+  [aldrich, "Aldrich Park", "https://map.uci.edu/?id=463#!bm/?ct/61979?m/126146?sbc/"],
+  [brencenter, "Bren Events Center", "https://map.uci.edu/?id=463#!ce/8309?ct/61979?m/83046?s/"],
 ];
 
 class RandomizePetr extends Component {
+
   // Create state
   state = {
-    topPos: Math.random() * 90,
-    leftPos: Math.random() * 90,
+    topPos: Math.random() * 52,
+    leftPos: Math.random() * 50,
     count: 0,
     location: locations[Math.floor(Math.random() * locations.length)],
   };
 
   movePetr = () => {
-    //let container = document.getElementsByClassName("picture-container");
 
     this.setState({
-      topPos: Math.random() * 90,
-      leftPos: Math.random() * 90,
+      topPos: Math.random() * 52,
+      leftPos: Math.random() * 50,
       count: this.state.count + 1,
       location: locations[Math.floor(Math.random() * locations.length)],
     });
@@ -72,23 +81,26 @@ class RandomizePetr extends Component {
         </div>
         <div className="picture-container">
           {/* Element to Move Dynamically */}
-          <img
+          <img 
+            src={webjampetr}
             style={{
               height: 100,
               position: "absolute",
-              left: `${this.state.leftPos}%`,
-              top: `${this.state.topPos}%`,
+              left: `${38 + this.state.leftPos}%`,
+              top: `${14+ this.state.topPos}%`,
             }}
-            src={webjampetr}
             alt="Petr"
             onClick={this.movePetr}
-          />
+            />
+
           <img
             className="locations"
             src={this.state.location[0]}
             alt="UCI location"
           />
+          <a href={this.state.location[2]} target="_blank">
           <h1>{this.state.location[1]}</h1>
+          </a>
         </div>
       </div>
     );

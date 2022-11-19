@@ -6,7 +6,7 @@ function IntroCards(props) {
     <div className="CardContainer">
       <div className="Card">
         <img src={props.chosenImage} alt="Peter" />
-        <Link to="/game">
+        <Link to={props.mypath}>
           <h2>{props.text}</h2>
         </Link>
       </div>
