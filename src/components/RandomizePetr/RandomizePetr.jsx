@@ -35,7 +35,7 @@ const locations = [
   ],
   [langson, "Langson Library", "https://map.uci.edu/?id=463#!ct/61979?m/83170"],
   [mesacourt, "Mesa Court", "https://map.uci.edu/?id=463#!ct/61979?m/83072"],
-  [brandywine, "Brandywine", "https://map.uci.edu/?id=463#!ct/61979?m/446803"],
+  [brandywine, "Brandywine Commons", "https://map.uci.edu/?id=463#!ct/61979?m/446803"],
 ];
 
 class RandomizePetr extends Component {
@@ -62,13 +62,13 @@ class RandomizePetr extends Component {
     return (
       <div className="game-container">
         <div className="desc-container">
-          <h1 className="point-counter"> Petr Clicks: {this.state.count}</h1>
           <h1 className="game-desc">
             Welcome to Where’s Petr! The goal of this game is to find the hidden
             Petr on different spots across camps! You’ll get to know UCI as well
             as play a version of hide and seek with our school mascot! Happy
             searching!
           </h1>
+          <h1 className="point-counter"> Petr Clicks: {this.state.count}</h1>
         </div>
         <div className="picture-container">
           {/* Element to Move Dynamically */}
