@@ -10,8 +10,8 @@
   font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 400;
-  font-size: 50px;
-  line-height: 66px;
+  font-size: 30px;
+  line-height: 10px;
   display: flex;
   align-items: flex-end;
   text-align: center;
@@ -24,8 +24,8 @@
   font-family: "JetBrains Mono";
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
-  line-height: 33px;
+  font-size: 15px;
+  line-height: 30px;
   display: flex;
   align-items: flex-end;
   text-align: center;
@@ -36,11 +36,11 @@
 
 .ImageContainer {
   position: relative;
-  margin-top: 50px;
+  margin-top: 10px;
 
   background: rgba(0, 0, 0, 0.7);
-  width: 1164px;
-  height: 646px;
+  width: 931px;
+  height: 440px;
 }
 
 .BackgroundImage {
