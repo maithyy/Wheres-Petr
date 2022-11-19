@@ -62,10 +62,7 @@ class RandomizePetr extends Component {
     return (
       <div className="game-container">
         <div className="desc-container">
-          <h1 className="point-counter">
-            {" "}
-            Times you've clicked Petr: {this.state.count}
-          </h1>
+          <h1 className="point-counter"> Petr Clicks: {this.state.count}</h1>
           <h1 className="game-desc">
             Welcome to Where’s Petr! The goal of this game is to find the hidden
             Petr on different spots across camps! You’ll get to know UCI as well
