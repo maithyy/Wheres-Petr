@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.f5514823.css",
+    "main.js": "/react-gh-pages/static/js/main.3f731d39.js",
+    "static/js/787.383d11f3.chunk.js": "/react-gh-pages/static/js/787.383d11f3.chunk.js",
+    "static/media/langson.jpg": "/react-gh-pages/static/media/langson.08a5c99bef6c7074af5e.jpg",
+    "static/media/dbh.png": "/react-gh-pages/static/media/dbh.4033b46cdc6d05071e80.png",
+    "static/media/sciencelibrary.png": "/react-gh-pages/static/media/sciencelibrary.55c27f0248db49bc2f11.png",
+    "static/media/pslh.png": "/react-gh-pages/static/media/pslh.edd6d62577527b14b016.png",
+    "static/media/BrenEventCenter.jpg": "/react-gh-pages/static/media/BrenEventCenter.883e5cb125d5c16340a2.jpg",
+    "static/media/Aldrich-Park_1600.jpg": "/react-gh-pages/static/media/Aldrich-Park_1600.0c35e4fdd0436bf30993.jpg",
+    "static/media/archeader.jpg": "/react-gh-pages/static/media/archeader.5f438c390d5c50e6fb7a.jpg",
+    "static/media/webjampetr.png": "/react-gh-pages/static/media/webjampetr.56635fd10254ed7bfd69.png",
+    "static/media/hib.jpg": "/react-gh-pages/static/media/hib.20a74a53eee33525ea92.jpg",
+    "static/media/brandywine.jpg": "/react-gh-pages/static/media/brandywine.46a3b9e2dcbb5586f6fe.jpg",
+    "static/media/mesacourt.jpg": "/react-gh-pages/static/media/mesacourt.bad5125921c2ee71f67e.jpg",
+    "static/media/ics1.jpg": "/react-gh-pages/static/media/ics1.d6286f06b985d12a4295.jpg",
+    "static/media/ALP-1024x650.jpg": "/react-gh-pages/static/media/ALP-1024x650.2b4058ae9cebf0246da0.jpg",
+    "static/media/card.png": "/react-gh-pages/static/media/card.3a77d0aa2e4b110a9f70.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.f5514823.css.map": "/react-gh-pages/static/css/main.f5514823.css.map",
+    "main.3f731d39.js.map": "/react-gh-pages/static/js/main.3f731d39.js.map",
+    "787.383d11f3.chunk.js.map": "/react-gh-pages/static/js/787.383d11f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5514823.css",
+    "static/js/main.3f731d39.js"
+  ]
+}
