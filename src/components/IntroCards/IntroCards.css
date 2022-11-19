@@ -1,5 +1,6 @@
 .CardContainer {
   margin: 0px 20px;
+  transition: transform 0.2s;
 }
 
 .Card {
@@ -9,11 +10,16 @@
   overflow: hidden;
   background: rgba(0, 0, 0, 0.7);
   margin: 0px 100px;
+  margin-left: 150px;
 }
 
 .Card img {
   opacity: 0.5;
   height: 100%;
+}
+
+.CardContainer:hover {
+  transform: scale(1.05);
 }
 
 .IntroCards h2 {
@@ -34,7 +40,6 @@
 .IntroCards p {
   position: relative;
   padding-top: 30px;
-
   width: 583px;
   height: 79px;
 
