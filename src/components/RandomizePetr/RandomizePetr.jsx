@@ -13,10 +13,26 @@ import "./RandomizePetr.css";
 
 const locations = [
   [dbh, "Donald Bren Hall", "https://map.uci.edu/?id=463#!ct/61979?m/454487"],
-  [ics1, "Information & Computer Sciences Building", "https://map.uci.edu/?id=463#!ct/61979?m/83096"],
-  [pslh, "Physical Sciences Lecture Hall", "https://map.uci.edu/?id=463#!ct/61979?m/577692"],
-  [hib, "Humanities Instructional Building", "https://map.uci.edu/?id=463#!ct/61979?m/83162"],
-  [sciencelibrary, "Science Library", "https://map.uci.edu/?id=463#!ct/61979?m/83168"],
+  [
+    ics1,
+    "Information & Computer Sciences Building",
+    "https://map.uci.edu/?id=463#!ct/61979?m/83096",
+  ],
+  [
+    pslh,
+    "Physical Sciences Lecture Hall",
+    "https://map.uci.edu/?id=463#!ct/61979?m/577692",
+  ],
+  [
+    hib,
+    "Humanities Instructional Building",
+    "https://map.uci.edu/?id=463#!ct/61979?m/83162",
+  ],
+  [
+    sciencelibrary,
+    "Science Library",
+    "https://map.uci.edu/?id=463#!ct/61979?m/83168",
+  ],
   [langson, "Langson Library", "https://map.uci.edu/?id=463#!ct/61979?m/83170"],
   [mesacourt, "Mesa Court", "https://map.uci.edu/?id=463#!ct/61979?m/83072"],
   [brandywine, "Brandywine", "https://map.uci.edu/?id=463#!ct/61979?m/446803"],
@@ -32,9 +48,7 @@ class RandomizePetr extends Component {
   };
 
   movePetr = () => {
-
-    container = document.getElementsByClassName("picture-container"); 
-    
+    //let container = document.getElementsByClassName("picture-container");
 
     this.setState({
       topPos: Math.random() * 90,
